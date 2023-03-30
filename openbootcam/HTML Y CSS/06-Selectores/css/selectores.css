@@ -1,0 +1,7 @@
+.contenedor{
+    color: green;
+}
+.contenedor #btn-contenedor{
+    background-color: blue;
+    color: white;
+}
