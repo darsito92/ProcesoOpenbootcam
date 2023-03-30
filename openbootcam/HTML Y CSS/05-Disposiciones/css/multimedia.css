@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imagen-principal {
+    /* VW es una unidad de medida de CSS que significa Viewport Wirdth, y lo que hace es recoge el 100% en este caso del ancho del navegador, en las imagenes tenemos que contar que CSS siempre intenta mantener la relacion de aspecto, si solo le especificamos un eje */
+    width: 100vw;
+
+    /* El valor de la opacidad se mide entre 0 y 1, esto se utiliza mucho sobretodo en la propiedad hover */
+    opacity: 1;
+}
+
+/* Esta funcion la veremos en las siguientes clases pero significa que cuando colocamos el cursor encima de la imagen aplica este estilo, y si quitamos el cursor vuelve a aplicar el anterior */
+.imagen-principal:hover {
+    opacity: 0.6;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap es un atributo para decirle a flex que entre los elementos tiene que haber N distancia */
+    gap: 10px;
+}
+
+.imagen-galeria {
+    width: 100px;
+}
+
+.imagen-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+   
+
+}

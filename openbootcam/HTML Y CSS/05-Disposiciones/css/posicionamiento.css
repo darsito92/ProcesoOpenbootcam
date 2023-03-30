@@ -1,0 +1,41 @@
+div{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+/* se posiciona en relacion a la posicion original */
+.relative{
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+/* se fija una posicion en relacion a la pantalla  */
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    background-color: greenyellow;
+    /* z index posiciona que esta mas adelante o mas atras por capas */
+    z-index: 10;
+}
+/* se fija una posicion en relacion al padre relativo*/
+.absolute{
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+.relative.contenedor{
+    width: 300px;
+    height: 500px;
+    background-color: blue;
+
+}
+/* al hacer scrol deja su posicion fija al pasar sobre el  */
+.sticky{
+    position: sticky;
+    background-color: bisque;
+    color: white;
+    top: 0px;
+    z-index: 2;
+}

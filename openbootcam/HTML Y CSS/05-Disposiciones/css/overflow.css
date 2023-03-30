@@ -1,0 +1,37 @@
+/*  muestra solo el contenido dentro de los margenes del contenedor */
+.contenedor-hidden{
+    background-color: antiquewhite;
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;
+}
+/*  muestra el contenido dentro de los margenes del contenedor y en caso
+de se mayor el contenido al tamaño del contenedor crea un scrol para poder moverse 
+por el contenido tambien se puede variar los ejes del scroll que sea unico
+con overflow-x: o overflow-Y:*/
+
+.contenedor-scroll{
+    background-color: antiquewhite;
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll;
+}
+/*es el overflow por defecto este muestra el contenido dentro sin importar margenes del contenedor */
+.contenedor-visible{
+    background-color: antiquewhite;
+    margin: 10px;
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible;
+}
+/* este simplemente muestra el contenido dentro de los margenes del contenedor */
+.contenedor-auto{
+    background-color: antiquewhite;
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;
+}

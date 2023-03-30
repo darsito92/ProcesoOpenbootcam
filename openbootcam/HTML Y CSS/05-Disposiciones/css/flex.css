@@ -1,0 +1,39 @@
+.flex{
+    display: flex;
+    background-color: yellow;
+    height: 300px;
+    /* justify-content: ajusta el tamaño de los elementos 
+    del contenedor en la posicion especificada */
+    justify-content: space-around;
+    /* flex-wrap: nowrap desorma el contenido de los elementos 
+    y wrap mantiene el tamaño de los elementos 
+    acomodandolos en el espacio*/
+    /* flex-wrap: nowrap; */
+
+    /* flex-direction: row; viene por defecto es el eje principal
+    tambien se puede usar column para hacerlo de manera vertical*/
+    flex-direction: row;
+
+    /* align-items: ajusta los elementos dentro del contenedor, por defecto
+    viene como stretch que ajusta el tamaño del elemento independiente del contenido */
+     align-items: center; 
+}
+.contenido-1{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-2{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+.contenido-3{
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid blue;
+}
+/* https://codepen.io/enxaneta/full/adLPwv */
