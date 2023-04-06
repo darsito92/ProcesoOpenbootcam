@@ -1,0 +1,44 @@
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+.hijo{
+    width: 50%;
+    height: 50%;
+    background-color: azure;
+    /* transition: all 1s; */
+    /* transition: all 1s ease-in; hace una pequeña pausa al comienso o al final con out
+    transition: all 1s linear; hace que toda la transcion sea igual en todo el tiempo
+    se puede modificar desde la consola 
+    tambien se ´puede agregar un delay espera el tiempo que le asigno 
+    se usa colocando un segundo valor de tiempo ej transition: all 1s 3s; */
+}
+.padre:hover .hijo{
+    /* transform: translatex(100%); */
+    /* transform: translatey(100%); depende el eje la direccion que se traslada*/
+    /* background-color: blueviolet; */
+    animation:traslacion 2s ease-in-out forwards;
+}
+@keyframes traslacion{
+    0%{
+        background-color: rgb(234, 229, 229);
+        transform: translateX(0%);
+    }
+    25%{
+        background-color: rgb(14, 170, 30);
+        transform: translateX(100%)
+    }
+    50%{
+        background-color: rgb(14, 170, 30);
+        transform: translateX(100%) translateY(100%);
+    }
+    75%{
+        background-color: orange;
+        transform: translateX(0%) translateY(100%);
+    }
+    100%{
+        background-color: orange;
+        transform: translateX(0%) translateY(0%);
+    }
+}
