@@ -1,0 +1,7 @@
+@use "sass:string";
+@use "sass:math";
+//funciones con texto
+@debug "hola";
+@debug string.quote(Helvetica);
+//funciones con numeros
+@debug 
