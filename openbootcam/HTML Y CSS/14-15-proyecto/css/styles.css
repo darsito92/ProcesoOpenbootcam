@@ -17,7 +17,7 @@
 .btn-sec, .btn-sec-s {
   padding: 0.25rem 1.5rem;
   border-radius: 0.25rem;
-  color: #000000;
+  color: white;
   background-color: transparent;
   border: none;
 }
@@ -39,7 +39,7 @@
   margin-right: 2rem;
 }
 .main-menu li a {
-  color: #000;
+  color: white;
   text-decoration: none;
 }
 .main-menu li a:hover {
@@ -103,6 +103,7 @@ html {
 body {
   padding: 0;
   margin: 0;
+  background-color: #161617;
 }
 
 .nav {
@@ -135,12 +136,19 @@ body {
 .sec-home .home-cta .home-title {
   width: 20rem;
   font-size: 3rem;
+  color: white;
 }
 .sec-home .home-cta .home-description {
   width: 300px;
+  color: white;
 }
 .sec-home .home-cta .lead-magnet .input-col {
   max-width: 200px;
+}
+.sec-home .home-cta .lead-magnet .input-col input {
+  background-color: #212121;
+  border-color: #161617;
+  color: white;
 }
 
 .sec-features, .sec-onboarding .intro, .sec-benefits .intro {
@@ -157,6 +165,7 @@ body {
 }
 .sec-features .intro h3, .sec-onboarding .intro .intro h3, .sec-benefits .intro .intro h3 {
   font-size: 1.8rem;
+  color: white;
 }
 .sec-features .intro p, .sec-onboarding .intro .intro p, .sec-benefits .intro .intro p {
   font-size: 0.8rem;
@@ -182,9 +191,11 @@ body {
 }
 .sec-features .features .text .feature .description .description-title, .sec-onboarding .intro .features .text .feature .description .description-title, .sec-benefits .intro .features .text .feature .description .description-title {
   font-size: 1.15rem;
+  color: white;
 }
 .sec-features .features .text .feature .description .description-text, .sec-onboarding .intro .features .text .feature .description .description-text, .sec-benefits .intro .features .text .feature .description .description-text {
   font-size: 1rem;
+  color: #999;
 }
 .sec-features .features .image img, .sec-onboarding .intro .features .image img, .sec-benefits .intro .features .image img {
   max-width: 20rem;
@@ -193,9 +204,13 @@ body {
 .sec-benefits {
   border-top: 1px solid #ddd;
 }
+.sec-benefits .intro {
+  color: white;
+}
 .sec-benefits .benefit-cards {
   width: 100%;
   padding: 0 2rem 2rem 2rem;
+  color: white;
 }
 
 .sec-kpis {
@@ -218,11 +233,15 @@ body {
   color: rgba(255, 255, 255, 0.6666666667);
 }
 
+.sec-onboarding .intro {
+  color: white;
+}
 .sec-onboarding .steps {
   padding: 0 7rem 5rem 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 .sec-onboarding .steps .step-separator {
   flex: 1;

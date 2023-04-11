@@ -14,6 +14,7 @@ html {
 body {
     padding: 0;
     margin: 0;
+    background-color: components.$background-color;
 }
 
 .nav {
@@ -41,13 +42,20 @@ body {
         .home-title {
             width: 20rem;
             font-size: 3rem;
+            color: components.$text-color;
         }
         .home-description {
             width: 300px;
+            color: components.$text-color;
         }
         .lead-magnet {
             .input-col {
                 max-width: 200px;
+                input {
+                    background-color: components.$background-color-soft;
+                    border-color: components.$background-color;
+                    color: components.$text-color;
+                }
             }
         }
     }
@@ -62,6 +70,7 @@ body {
         text-align: center;
         h3 {
             font-size: 1.8rem;
+            color: components.$text-color;
         }
         p {
             font-size: 0.8rem;
@@ -84,9 +93,11 @@ body {
                     max-width: 20rem;
                     .description-title {
                         font-size: 1.15rem;
+                        color: components.$text-color;
                     }
                     .description-text {
                         font-size: 1rem;
+                        color: components.$text-color-soft;
                     }
                 }
             }
@@ -103,10 +114,12 @@ body {
     border-top: 1px solid #ddd;
     .intro {
         @extend .sec-features, .intro;
+        color: components.$text-color;
     }
     .benefit-cards {
         width: 100%;
         padding: 0 2rem 2rem 2rem;
+        color: components.$text-color;
     }
 }
 
@@ -133,12 +146,14 @@ body {
 .sec-onboarding {
     .intro {
         @extend .sec-features, .intro;
+        color: components.$text-color;
     }
     .steps {
         padding: 0 7rem 5rem 7rem;
         display: flex;
         align-items: center;
         justify-content: center;
+        color: components.$text-color;
         .step-separator {
             flex: 1;
             border-top: 2px solid #ddd;
