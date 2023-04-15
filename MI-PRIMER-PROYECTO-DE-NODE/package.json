@@ -1,0 +1,18 @@
+{
+  "name": "hola-mundo",
+  "version": "1.0.0",
+  "description": "Este es el primer proyecto de Javascript con Node en Open Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "saludar":"node hola_mundo.js",
+    "ejercicio": "node ejercicio_1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "holamundo",
+    "firstproyect"
+  ],
+  "author": "Diego Sepulveda",
+  "license": "ISC"
+}
