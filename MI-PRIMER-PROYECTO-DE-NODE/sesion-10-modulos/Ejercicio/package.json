@@ -1,0 +1,20 @@
+{
+  "name": "ejercicio",
+  "version": "1.0.0",
+  "description": "ejercicio sesion 10",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "ES6"
+  ],
+  "author": "Diego Sepulveda",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
+}
