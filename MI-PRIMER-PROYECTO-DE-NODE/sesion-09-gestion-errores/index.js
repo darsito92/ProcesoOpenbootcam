@@ -1,0 +1,6 @@
+const logger =require('./logger')
+//logger.log("hola estoy saliendo por pantalla")
+logger.info("hola este es un mensaje informativo")
+logger.debug("hola este es un mensaje debug")
+logger.warn("hola este es un mensaje de advertencia")
+logger.error("hola este es un error")
