@@ -1,0 +1,3 @@
+//Interfaces -> duck typing
+//javascript no usa interfaces ya que es un lenguaje interpretado
+//Typescrip-> si utiliza interfaces investigar al menos la introduccion
