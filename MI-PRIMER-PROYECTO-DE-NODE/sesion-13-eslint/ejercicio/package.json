@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio",
+  "version": "1.0.0",
+  "description": "Ejercicio eslint",
+  "main": "ejercicio.js",
+  "scripts": {
+    "start": "eslint ejercicio.js",
+    "lint-fix": "eslint --fix ejercicio.js"
+  },
+  "keywords": [
+    "node",
+    "eslist"
+  ],
+  "author": "Diego Sepulveda",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.40.0"
+  }
+}
