@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio",
+  "version": "1.0.0",
+  "description": "ejercicio sesion 14",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "keywords": ["jquery","node","javascript"],
+  "author": "Diego Sepulveda",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
